@@ -33,7 +33,7 @@ function Signup() {
             return
         }
 
-        const response = await axios.post('/api/signup' ,{
+        const response = await axios.post('https://dollar-dash-server.onrender.com/api/signup' ,{
             name,
             mobile,
             email,

@@ -15,7 +15,7 @@ function Login (){
         if(!password){
             return alert('Password is required')
         }
-        const response = await axios.post('/api/login',{
+        const response = await axios.post('https://dollar-dash-server.onrender.com/api/login',{
             email,
             password,
         });

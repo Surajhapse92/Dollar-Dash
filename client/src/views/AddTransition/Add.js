@@ -43,7 +43,7 @@ function Add() {
         }
 
         try {
-            const response = await axios.post('/api/transition', {
+            const response = await axios.post('https://dollar-dash-server.onrender.com/api/transition', {
                 user: userData._id,
                 amount: parseFloat(amount),
                 type,

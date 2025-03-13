@@ -14,7 +14,7 @@ function Update() {
     const { id } = useParams();
 
     const upadateData = async () => {
-        const response = await axios.get(`/api/transition/${id}`);
+        const response = await axios.get(`https://dollar-dash-server.onrender.com/api/transition/${id}`);
         const { amount, type, description, category } = response?.data?.data;
 
         setAmount(amount)
@@ -43,7 +43,7 @@ function Update() {
             return alert('Category is requred');
         }
 
-        const response = await axios.put(`/api/transition/${id}`, {
+        const response = await axios.put(`https://dollar-dash-server.onrender.com/api/transition/${id}`, {
             amount,
             type,
             description,
@@ -52,7 +52,7 @@ function Update() {
 
         if (response?.data?.data) {
             alert("update Successfully")
-            window.location.href = '/transition'
+            window.location.href = 'https://dollar-dash-server.onrender.com/transition'
         }
 
         setAmount('')

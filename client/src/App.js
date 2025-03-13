@@ -27,7 +27,7 @@ function App() {
     const userId = user._id;
     console.log(userId);
 
-    const response = await axios.get(`/api/transition/user/${userId}`)
+    const response = await axios.get(`https://dollar-dash-server.onrender.com/api/transition/user/${userId}`)
     const transitionData = response?.data?.data;
 
     let creditSum = 0;
@@ -52,7 +52,7 @@ function App() {
   }, []);
 
   const deleteTransition = async (_id) => {
-    const response = await axios.delete(`/api/transition/delete/${_id}`);
+    const response = await axios.delete(`https://dollar-dash-server.onrender.com/api/transition/delete/${_id}`);
     if (response?.data?.success) {
       alert(response?.data?.message)
       onLoadTransition()
@@ -61,7 +61,7 @@ function App() {
   }
 
   const editButton = async (_id) => {
-    window.location.href = `/updateTransition/${_id}`
+    window.location.href = `https://dollar-dash-server.onrender.com/updateTransition/${_id}`
   }
 
   return (

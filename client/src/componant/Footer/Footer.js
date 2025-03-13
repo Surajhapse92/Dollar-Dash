@@ -51,7 +51,7 @@ function Footer() {
     <p>
         © {new Date().getFullYear()} Dollar Dash. All rights reserved. |  
         <a href="https://suraj-hapse-porfolio.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "none" }}>
-            Suraj Hapse
+            SH
         </a>
     </p>
 </div>
