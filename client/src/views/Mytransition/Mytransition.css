@@ -1,0 +1,15 @@
+.text-center-mycontainer{
+    font-weight: 600;
+    width: fit-content;
+    margin: 10px auto;
+    display: block;
+}
+@media screen and (max-width:768px){
+    .text-center-mycontainer{
+        font-weight: 400;
+        width: fit-content;
+        margin: 10px auto;
+        display: block;
+        font-size: 22px;
+    }
+}

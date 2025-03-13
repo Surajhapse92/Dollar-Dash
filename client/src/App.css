@@ -1,0 +1,204 @@
+
+.app-container{
+  position: relative;
+  padding: 10px 20px;
+  width: 550PX;
+  height: 200px;
+  font-size: 30px;
+  box-shadow:0px 0px 7px 0px #ffc2b3;
+  background: #fff;
+  padding: 25px 65px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.type-container{
+  font-size: 20px;
+  color: #fff;
+  border-radius: 7px 0px 0px 0px;
+  padding: 1px 4px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.amount-position{
+  position: absolute;
+  top: 5px;
+ left:330px;
+ font-size: 25px;
+ margin-bottom: 300px;
+}
+
+.description-container{
+  font-size: 25PX;
+ position: absolute;
+ top: 90px;
+ left: 15px;
+ border-bottom: 1px solid gray;
+ padding: 10px;
+}
+.margin-category{
+  border-bottom: 1px solid gray;
+  position: absolute;
+  bottom:10px;
+  left: 15px;
+  padding: 10px;
+  font-size: 25px;
+}
+.flex-transtion{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.credit-bg{
+  background-color: green;
+}
+.debit-bg{
+  background-color: red;
+}
+.credit-con{
+  color: green;
+}
+.debit-con{
+color: red;
+}
+.date-container{
+  font-size: 18px;
+  margin-left: 40px;
+}
+.time-container{
+  font-size: 18px;
+  margin-left: 10px;
+}
+.cr-dr-container{
+  width: fit-content;
+  margin: 40px 100px;
+}
+.cr-dr-amount{
+  font-size: 25px;
+  font-weight: 600;
+}
+.delete-btn{
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right:10px;
+}
+.img-con{
+  height: 35px;
+}
+.update-img-container{
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right:10px;
+}
+.flex-date{
+  display: flex;
+}
+.position-date-time{
+  position: absolute;
+  bottom: 5px;
+  right: 60px;
+}
+
+@media screen and (max-width:768px){
+  .app-container{
+    position: relative;
+    width: 45%;
+    height:150px;
+    font-size: 18px;
+     box-shadow:0px 0px 7px 0px #ffc2b3;
+    background: #fff;
+    padding: 25px 65px;
+    border-radius: 5px;
+    margin: 80px auto;
+    display: block;
+  }
+  .cr-dr-amount{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .flex-transtion{
+    display: block;
+    flex-wrap: wrap;
+   
+    padding-bottom: 20px;
+    margin-top: 20PX;
+  }
+  .date-container{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .margin{
+    margin: 20px 0px;
+  }
+  .img-con{
+    height: 20px;
+  }
+  .responsive-date-time{
+    display: flex;
+    flex-direction: column;
+  }
+  .category-container{
+    font-size: 20PX;
+    
+  }
+     
+  .description-container{
+    font-size: 20PX;
+   position: absolute;
+   top: 20px;
+   left: 15px;
+   border-bottom: 1px solid gray;
+   padding: 10px;
+  }
+  .margin-category{
+    position: absolute;
+    top:90px;
+    left: 15px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  }
+  .position-date-time{
+    position: absolute;
+    top: 130px;
+    left: 5px;
+  }
+  .type-container{
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px 0px 0px 0px;
+    padding: 1px 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .amount-position{
+    position: absolute;
+    top: -20px;
+   left:130px;
+   font-size: 15px;
+   margin-bottom: 300px;
+  }
+  .delete-btn{
+    cursor: pointer;
+    position: absolute;
+    bottom: -16px;
+    right:10px;
+  }
+  
+  .update-img-container{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right:10px;
+  }
+  .date-container{
+    font-size: 12px;
+  }
+  .time-container{
+    font-size: 12px;
+  }
+}

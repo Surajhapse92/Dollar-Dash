@@ -1,0 +1,158 @@
+.mytransition-container {
+    width: 50%;
+    height: fit-content;
+    background: #fff;
+    padding: 1px 2px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px #ffc2b3;
+}
+.heading-contener-add{
+     font-size: 25px;
+    font-weight: 600;
+    font-family: arial;
+    margin-top: 15px;
+    margin-bottom: 30px;
+   text-align: center;
+  }
+.select-add-main{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex-gred{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-bottom: 30px;
+}
+.title-font{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: arial;
+}
+.select-container-add{
+    font-size: 18px;
+    width: 200px;
+    font-family: arial;
+    font-weight: 400;
+    border: none;
+    border-bottom:1px solid gray ;
+}
+.input-amount-container {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: arial;
+    width: 195px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.crdr-flex-gred{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.type-container{
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 400;
+    color: black;
+}
+.credit-debit-title{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: arial;
+}
+.btn-add {
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+    padding: 7px 100px;
+    border-radius: 10px;
+    border: 1px solid #b66e5c;
+    background-color: #fff;
+}
+.btn-add:hover{
+    background-color: #ffc2b3;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px #ffc2b3;    
+}
+@media screen and (max-width:768px) {
+    .mytransition-container {
+        width: 270px;
+        height: fit-content;
+        background: #fff;
+        padding: 1px 2px;
+        margin: 50px auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 0px #ffc2b3;
+    }
+    .heading-contener-add{
+        font-size: 18px;
+       font-weight: 600;
+       font-family: arial;
+       margin-top: 10px;
+       margin-bottom: 20px;
+      text-align: center;
+     }
+     .select-add-main{
+        width: 250px;
+        margin: 0 auto;
+        text-align: start;
+        padding: 0px;
+    }
+    .flex-gred{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        margin-bottom: 10px;
+    }
+    .title-font{
+        font-size: 14px;
+        font-weight: 600;
+        font-family: arial;
+    }
+    .select-container-add{
+        font-size: 12px;
+        width: 100px;
+        font-family: arial;
+        font-weight: 400;
+        border: none;
+        border-bottom:1px solid gray ;
+    }
+    .input-amount-container {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: arial;
+        width: 100px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    
+.crdr-flex-gred{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.credit-debit-title{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: arial;
+}
+.btn-add {
+    display: block;
+    margin: 20px auto;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: 600;
+    padding: 7px 50px;
+    border-radius: 10px;
+    border: 1px solid #b66e5c;
+    background-color: #fff;
+}
+.btn-add:hover{
+    background-color: #ffc2b3;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px #ffc2b3;    
+}
+
+}

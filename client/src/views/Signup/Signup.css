@@ -1,0 +1,102 @@
+.signup-container{
+    box-shadow:0px 0px 7px 0px #ffc2b3;
+    padding: 5px 30px;
+    width: fit-content;
+    display: block;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+}
+.signup-heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+}
+.input-box{
+    padding: 5px 30px;
+    font-size: 17px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.input-radio{
+    font-size: 5px;
+}
+.radio-container{
+    font-size: 15px;
+}
+/* .btn-signup{
+    margin: 10px auto;
+    display: block;
+} */
+.btn-signup{
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 600;
+    padding: 7px 50px;
+    border-radius: 10px;
+    border: 1px solid #b66e5c;
+    background-color: #fff;
+}
+.btn-signup:hover{
+    background-color: #ffc2b3;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px #ffc2b3;    
+}
+@media screen and (max-width:768px){
+    .signup-container{
+        box-shadow:0px 0px 7px 0px #ffc2b3;
+        padding: 3px 15px;
+        width: fit-content;
+        display: block;
+        margin: 30px auto;
+        flex-wrap: wrap;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .signup-heading{
+        text-align: center;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: 600;
+        display: block;
+        margin-top: 8px;
+    }
+    .input-box{
+        padding: 5px 20px;
+        font-size: 12px;
+        display: block;
+        margin: 15px auto;
+        border-radius: 10px;
+    }
+    
+    .input-radio{
+        font-size: 3px;
+    }
+    .radio-container{
+        font-size: 12px;
+    }
+    .btn-signup{
+        display: block;
+        margin: 20px auto;
+        font-size: 13px;
+        font-family: arial;
+        font-weight: 600;
+        padding: 5px 30px;
+        border-radius: 5px;
+        border: 1px solid #b66e5c;
+        background-color: #fff;
+    }
+    .btn-signup:hover{
+        background-color: #ffc2b3;
+        cursor: pointer;
+        box-shadow: 0px 0px 7px 0px #ffc2b3;    
+    }
+}

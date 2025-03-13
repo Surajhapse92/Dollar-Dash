@@ -1,0 +1,94 @@
+.home-image-cover{
+    background-image: url(./math.jpg);
+    background-size: cover; 
+}
+.home-img-cover-black{
+ background-color: rgba(0, 0, 0, 0.6) ;
+    height: 100vh;
+}
+.brand-title-home{
+    color: #fff;
+    font-family:cursive;
+    font-size: 45px;
+    margin-left: 200px;
+    padding-top: 50px;
+    display: block;
+}
+.home-input-contener{
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+}
+.brand-input-box-home{
+    color: rgb(169, 168, 168);
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 350px;
+    display: block;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.home-submit-btn{
+    color: rgb(169, 168, 168);
+    border: 1px solid gray;
+    width: 150px;
+    font-size: 20px;
+    padding: 10px 20px;
+    display:block;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.home-submit-btn:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .home-img-cover-black{
+        background-color: rgba(0, 0, 0, 0.6) ;
+           height: 250px;
+       }
+    .home-image-cover{
+        background-image: url(./math.jpg);
+        background-size: cover;
+        height: 250px;
+    }
+    .brand-title-home{
+        color: #fff;
+        font-family:cursive;
+        font-size: 25px;
+        margin-left: 25px;
+        padding-top: 25px;
+        display: block;
+    }
+    .home-input-contener{
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+    }
+    .brand-input-box-home{
+        color: rgb(169, 168, 168);
+        border: 1px solid gray;
+        padding: 5px 10px;
+        width: 175px;
+       display: block;
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .home-submit-btn{
+        color: rgb(169, 168, 168);
+        border: 1px solid gray;
+        width: 75px;
+        font-size: 12px;
+        padding: 5px 10px;
+        display:block;
+        border-radius: 5px;
+        margin-top: 20px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .home-submit-btn:hover{
+        cursor: pointer;
+    }
+}
