@@ -17,7 +17,9 @@ function Mytransition() {
                 <App />
                 <Footer />
             </div>
+            
         </>
+        
     )
 }
 export default Mytransition

@@ -1,87 +1,94 @@
+/* Footer Container */
 .footer-container {
-    background-color: #ff9980;
-    height: fit-content;
-    color: black;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 20px 20px;
+    font-family: 'Arial', sans-serif;
 }
-.brand-title{
-    font-size: 25px;
-    font-family: cursive;
-    font-weight: 600;
-    margin-top: 30px;
-    display: block;
-}
-.footer-title-font {
-    font-weight: 600;
-    font-size: 20px;
-    font-family: arial;
-    margin-top: 10px;
-    display: block;
-   }
-.footer-information-contener{
-    font-size: 18px;
-    text-align: justify;
-    display: block;
-    padding: 10px 90px 0px 30px;
-    font-family: arial;
-    font-weight: 400;
-}
-.footer-all-information{
-    width: 85%;
-    display: grid;
-    grid-template-columns: 3fr 4fr 3fr 2fr;
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-.click-me-start-here-footer{
-    padding-left:30px;
+
+/* Brand Section */
+.brand-section {
+    flex: 1;
+    min-width: 200px;
 }
-.footer-sub-title{
-    display: block;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: arial;
-    margin-bottom: 10px;
+
+.brand-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.brand-tagline {
+    font-size: 14px;
+    color: #bdc3c7;
     margin-top: 10px;
 }
 
-.footer-con-main {
-    background-color: #ff9980;
-    border: 1px solid #ff9980;
-    color: black;
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
 }
-@media screen and (max-width:768px) {
-    
-    .footer-all-information{
-        display: flex;
-        flex-direction: row;
-        padding: 5px 15px;
-    }
-    .brand-title{
-        font-size: 20px;
-        font-family: cursive;
-        font-weight: 600;
-        margin-top: 25px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .footer-title-font {
-        font-weight: 600;
-        font-size: 17px;
-        font-family: arial;
-        margin-top: 10px;
-    }
-    .footer-information-contener{
-        font-size: 14px;
-        text-align: justify;
-        padding: 5px;
-        font-family: arial;
-        font-weight: 400;
-    }
-    .footer-sub-title{
-        display: block;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: arial;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bdc3c7;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #f1c40f;
+}
+
+/* User Details */
+.user-details {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.user-details p {
+    margin: 5px 0;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #34495e;
+    font-size: 14px;
+    color: #bdc3c7;
 }
